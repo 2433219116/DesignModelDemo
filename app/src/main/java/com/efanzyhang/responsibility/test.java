@@ -26,9 +26,9 @@ public class test {
         Request3 request3 = new Request3("request3");
 
         //处理请求对象
-        handler1.handleRequset(request1);
-        handler1.handleRequset(request2);
-        handler1.handleRequset(request3);
+        handler1.handleRequest(request1);
+        handler1.handleRequest(request2);
+        handler1.handleRequest(request3);
     }
 
 

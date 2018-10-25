@@ -12,7 +12,7 @@ public abstract class AbstractHandler {
 
     protected AbstractHandler nextHandler;
 
-    protected void handleRequset(AbstractRequest request) {
+    protected void handleRequest(AbstractRequest request) {
         //判断请求级别和处理级别是否一致
         if (request.getRequestLevel() == getHandleLevel()) {
             //一致就由该对象处理
@@ -20,7 +20,7 @@ public abstract class AbstractHandler {
         } else {
             //否则将请求分发给下一个对象
             if (nextHandler != null) {
-                nextHandler.handleRequset(request);
+                nextHandler.handleRequest(request);
             } else {
                 //所有对象不为空时处理
                 System.out.println("ALL HANDLER CAN NOT HANDLE THE REQUEST!");
