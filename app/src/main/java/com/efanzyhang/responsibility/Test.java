@@ -3,12 +3,12 @@ package com.efanzyhang.responsibility;
 /**
  * 项目名：MyApplication1024
  * 包名：com.efanzyhang.responsibility
- * 文件名：test
+ * 文件名：Test
  * 创建者：efan.zyhang
  * 创建时间：2018/10/25 11:11
  * 描述： TODO
  */
-public class test {
+public class Test {
 
     public static void main(String args[]) {
         //实例化处理者对象
@@ -30,6 +30,4 @@ public class test {
         handler1.handleRequest(request2);
         handler1.handleRequest(request3);
     }
-
-
 }

@@ -12,6 +12,11 @@ public abstract class AbstractHandler {
 
     protected AbstractHandler nextHandler;
 
+    /**
+     * 处理请求方法
+     *
+     * @param request
+     */
     protected void handleRequest(AbstractRequest request) {
         //判断请求级别和处理级别是否一致
         if (request.getRequestLevel() == getHandleLevel()) {

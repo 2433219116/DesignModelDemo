@@ -3,12 +3,12 @@ package com.efanzyhang.observer;
 /**
  * 项目名：MyApplication1024
  * 包名：com.efanzyhang.observer
- * 文件名：test
+ * 文件名：Test
  * 创建者：efan.zyhang
  * 创建时间：2018/10/24 14:04
  * 描述： TODO
  */
-public class test {
+public class Test {
     public static void main(String args[]) {
         //实例化被观察者
         Radio radio = new Radio();

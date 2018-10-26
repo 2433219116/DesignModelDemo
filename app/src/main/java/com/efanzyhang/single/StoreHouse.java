@@ -20,7 +20,7 @@ public class StoreHouse {
     private StoreHouse() {
     }
 
-    public static StoreHouse newInstance() {
+    public static synchronized StoreHouse newInstance() {
         if (storeHouse==null){
             storeHouse=new StoreHouse();
         }

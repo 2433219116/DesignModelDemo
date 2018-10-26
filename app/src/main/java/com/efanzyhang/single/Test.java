@@ -3,12 +3,12 @@ package com.efanzyhang.single;
 /**
  * 项目名：MyApplication1024
  * 包名：com.efanzyhang.single
- * 文件名：test
+ * 文件名：Test
  * 创建者：efan.zyhang
  * 创建时间：2018/10/24 19:45
  * 描述： TODO
  */
-public class test {
+public class Test {
 
     public static void main(String[] args) {
         StoreHouse mStoreHouse1 = StoreHouse.newInstance();
